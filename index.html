@@ -1,310 +1,289 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Songfang's Homepage</title>
-  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-  <!--<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- Bulma Version 0.7.5-->
-  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
-  <link href='css/style.css' rel='stylesheet' type='text/css'>
-  <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
-  <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
-  <script src="js/menuspy.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zhihao Zhang's Homepage</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="IMG/zhihao.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
+    <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
+    <script src="js/menuspy.js"></script>
 </head>
-
 <body>
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-2">
-          <div class="sticky">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="http://hansf.me/images/sfphoto.jpg">
-            </figure>
-            <div class="content">
-              <h3>Songfang Han</h3>
-              <h6>Ph.D.</h6>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <!-- Sidebar -->
+                <div class="column is-2">
+                    <div class="sticky">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="IMG/zhihao.jpeg">
+                        </figure>
+                        <div class="content">
+                            <h3>Zhihao Zhang</h3>
+                            <h6>Research Assistant<br> ZJU FastLab</h6>
+                        </div>
+                        <div class="social">
+                          <!-- Gmail -->
+                          <a href="mailto:zhangzhihao0618@gmail.com" target="_blank">
+                              <span class="fas fa-envelope fa-2x" style="display:inline; text-decoration: none"></span>
+                          </a>
+                          <!-- GitHub -->
+                          <a href="https://github.com/ZhihaoZhang0618" target="_blank">
+                              <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none"></span>
+                          </a>
+                          <!-- LinkedIn -->
+                          <a href="https://www.linkedin.com/in/zhihao-zhang-30830330a/" target="_blank">
+                              <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none"></span>
+                          </a>
+                          <!-- 哔哩哔哩 -->
+                          <a href="https://space.bilibili.com/27108728?spm_id_from=333.1007.0.0" target="_blank">
+                              <span class="fas fa-video fa-2x" style="display:inline; text-decoration: none"></span>
+                          </a>
+                      </div>
+
+                        <div id="sidebar" class="menu sticky is-hidden-mobile">
+                            <p class="menu-label"><b>Quick Links</b></p>
+                            <ul class="menu-list">
+                                <li><a href="#intro">Intro</a></li>
+                                <li><a href="#publication">Publication</a></li>
+                                <li><a href="#research-experience">Research Experience</a></li>
+                                <li><a href="#skills">Skills & Interests</a></li>
+                                <li><a href="#personal-activities">Personal Activities</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Main Content -->
+                <div class="column">
+                    <div class="content">
+                      <div style="text-align:right; width: 99%;">
+                        <picture class="image">
+                          <img alt="" src="IMG/GBcarFly.png" style="display:inline-block;">
+                        </picture>
+                      </div>
+                        <!-- Intro -->
+                        <h3 id="intro">Intro</h3>
+                        <p>I graduated with a degree in Computer Science from Heilongjiang University of Science and Technology in June last year. Currently, I am working as a research assistant at ZJU FastLab.</p>
+                        <p>My interested areas include <b>F1TENTH Racing, Reinforcement Learning, Control, Motion Planning, RC Cars, FPV drones, FixWings</b>.</p>
+
+                        <!-- Publication -->
+                        <h3 id="publication">Publication</h3>
+                        <article class="columns">
+                            <div class="column">
+                                <p>
+                                    <b>Real-time Spatial-temporal Traversability Assessment via Feature-based Sparse Gaussian Process</b><br>
+                                    Tan Senming*, Zhenyu Hou*, <b>Zhihao Zhang*</b>, Mengke Zhang, Long Xu, He ZhaoQi, Chao Xu, Fei Gao, Yanjun Cao<br>
+                                    <em>International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2025</em><br>
+                                    <a href="https://github.com/ZJU-FAST-Lab/FSGP_BGK" target="_blank">[<u>GitHub Repository</u>]</a><br>
+                                    * These authors contributed equally to this work.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="columns">
+                            <div class="column">
+                                <p>
+                                    <b>SEB-Naver: A SE(2)-based Local Navigation Framework for Car-like Robots on Uneven Terrain</b><br>
+                                    Xiaoying Li, Long Xu, Xiaolin Huang, Donglai Xue, <b>Zhihao Zhang</b>, Zhichao Han, Chao Xu, Yanjun Cao, Fei Gao<br>
+                                    <em>International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2025</em><br>
+                                    <a href="https://github.com/ZJU-FAST-Lab/seb_naver" target="_blank">[<u>GitHub Repository</u>]</a>
+                                </p>
+                            </div>
+                        </article>
+
+                        <!-- Research Experience -->
+                        <h3 id="research-experience">Research Experience</h3>
+                        <article class="columns">
+                          <div class="column is-8">
+                              <h4>Zhejiang University FastLab</h4>
+                              <p><i>Research Assistant, Jan. 2024 – Present</i></p>
+                              <p>Advisor: Prof. Fei Gao</p>
+                              <ul>
+                                  <li>Participated in a heavy-load autonomous grasping and transportation project for short-distance fully autonomous delivery in complex environments such as mountains, rooftops, and sea surfaces.</li>
+                                  <li>Developed autonomous flight control using the DJI FC30 carrier aircraft and DJI Payload SDK.</li>
+                                  <li>Created a winch control program using joint motors that balances torque and retrieval speed.</li>
+                                  <li>Participated in the design of autonomous grasping and releasing processes.</li>
+                              </ul>
+                          </div>
+                          <div class="column is-4">
+                              <div class="image-container" style="display: flex; flex-direction: column; gap: 10px;">
+                                  <picture class="image">
+                                      <img src="IMG/FC30.png" alt="FC30" style="width:100%;">
+                                  </picture>
+                                  <picture class="image">
+                                      <img src="IMG/FC30_drone.jpg" alt="FC30 Drone" style="width:100%;">
+                                  </picture>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="columns">
+                        <div class="column is-8">
+                            <h4>Smart Mobility at the Niagara Falls F1TENTH Competition</h4>
+                            <p><i>Leader Programmer, Sep. 2024</i></p>
+                            <ul>
+                                <li>Developed codebase and provided remote parameter tuning assistance.</li>
+                                <li>Optimized the odometry calculation method, reducing computation delay under high-mobility conditions.</li>
+                                <li>Used SmacPlannerHybrid as the global planner to compute the global path, and RegulatedPurePursuit to track the path.</li>
+                                <li>Secured the 3rd prize in the competition.</li>
+                                <li>Open-sourced <a href="https://github.com/ZhihaoZhang0618/PhoenixCore" target="_blank">the code</a>; see the <a href="https://www.youtube.com/watch?v=uXfa9ODQRoo" target="_blank">FPV video</a>.</li>
+                            </ul>
+                        </div>
+                        <div class="column is-4">
+                            <div class="image-container" style="display: flex; flex-direction: column; gap: 10px;">
+                                <picture class="image">
+                                    <img src="IMG/carInCanada.png" alt="Car in Canada" style="width:100%;">
+                                </picture>
+                                <picture class="image">
+                                    <img src="IMG/prize.jpg" alt="Competition Prize" style="width:100%;">
+                                </picture>
+                            </div>
+                        </div>
+                    </article>
+                        <article class="columns">
+                            <div class="column">
+                                <h4>17th National College Student Intelligent Car Competition</h4>
+                                <p><i>Team Leader, Apr. 2022 – Aug. 2022</i></p>
+                                <ul>
+                                    <li>Developed codebase, coordinated team members’ work, and managed project progress.</li>
+                                    <li>Used U-Net for lane line segmentation and deployed the quantized model using TensorRT, achieving an inference speed of 12 ms on Jetson Nano. <a href="【【tianracer】对梦中情车动手动脚】 https://www.bilibili.com/video/BV1MS4y1N7fw/?p=3&share_source=copy_web&vd_source=7b01d34d2559e7724da23dc510cf1bf2" target="_blank">[Video]</a></li>
+                                    <li>For traffic light detection, used YOLOv4-tiny; independently handled data collection, labeling, and training.</li>
+                                    <li>Won the national first prize (with a 10,000 RMB prize).</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="columns">
+                            <div class="column">
+                                <h4>Beijing Intelligent Mechanic-Electric Equipment Co. Ltd.</h4>
+                                <p><i>Intern, Sep. 2021 – Feb. 2022</i></p>
+                                <ul>
+                                    <li>Developed a multi-robot distributed collaborative patrol solution based on Autoware.</li>
+                                    <li>Added RTK positioning based on hdl-localization for integrated localization.</li>
+                                    <li>Replaced the KF-based Object Tracker with PointPillars and accelerated it using TensorRT.</li>
+                                    <li>Implemented intranet penetration and remote networking for IoT remote control of vehicles.</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="columns">
+                          <div class="column is-8">
+                              <h4>Guangzhou Liwan District Digital Twin Project</h4>
+                              <p><i>Responsible for 3D Reconstruction, Apr. 2022 – Jun. 2022</i></p>
+                              <ul>
+                                  <li>Used data from the DJI L1 and colored point clouds generated by DJI Terra, imported them into ContextCapture to create Mesh images.</li>
+                                  <li>Built a custom 3D scanner, completed time synchronization and calibration, and replicated methods like Fast-livo and R3live for 3D scene reconstruction.</li>
+                                  <li>Selected a third-party team to complete the 3D scene reconstruction after evaluating technical approaches and market status.</li>
+                              </ul>
+                          </div>
+                          <div class="column is-4">
+                              <picture class="image">
+                                  <img src="IMG/r3live.jpg" alt="R3Live" style="width:100%;">
+                              </picture>
+                              <picture class="image">
+                                <img src="IMG/sim.png" alt="Competition Prize" style="width:100%;">
+                            </picture>
+                          </div>
+                      </article>
+                        <article class="columns">
+                            <div class="column">
+                                <h4>RACECAR Easy Build Guide from Zero</h4>
+                                <p><i>Presenter, Apr. 2022 – Jun. 2022</i></p>
+                                <ul>
+                                    <li>Created video content covering hardware assembly of RC car to autonomous high-speed navigation.</li>
+                                    <li>Shot videos explaining robot components and building process.</li>
+                                    <li>Developed part of the racecar code.</li>
+                                    <li><a href="https://www.bilibili.com/video/BV16Y4y177s3" target="_blank">[Video Link]</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <!-- Skills & Interests -->
+                        <h3 id="skills">Skills & Interests</h3>
+                        <p><b>Technical Skills:</b></p>
+                        <ul>
+                            <li><b>Programming Languages:</b> Python, C++, C, Java, C#</li>
+                            <li><b>Toolkits:</b> Docker, Git, ROS/ROS2, PyTorch, TensorFlow, OpenCV</li>
+                            <li><b>Development Boards:</b> Jetson series, ESP32, Raspberry Pi series, Arduino</li>
+                            <li><b>Flight Controllers:</b> PX4, APM, Betaflight, INav</li>
+                        </ul>
+
+                        <!-- Personal Activities -->
+                        <h3 id="personal-activities">Long term projects</h3>
+                        <p>(Personal projects, welcome to join me!)</p>
+                        <h4>Autonomous Drone Projects</h4>
+                        <p><i>Apr. 2022 – Present</i></p>
+                        <p>Based on FastLab open source project.</p>
+                        <h5>Hardware</h5>
+                        <div class="columns is-centered has-text-centered">
+                            <div class="column">
+                                <picture class="image">
+                                    <img src="IMG/drones.png" alt="Drones" style="width:60%;">
+                                </picture>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><b>Universal drone RedundantDrone:</b> <a href="https://github.com/z1047941150/RedundantDrone" target="_blank">[GitHub]</a></li>
+                            <li>Integrated NUC, RTK, LiDAR, and binocular camera into a 333mm blade pitch drone.</li>
+                            <li>Total weight controlled at about 2kg.</li>
+                            <li>Battery life over 18 minutes.</li>
+                            <li>Capable of verifying (V)SLAM, trajectory planning, motion control, and other algorithms.</li>
+                        </ul>
+                        <ul>
+                            <li><b>Lightweight High-protection drone TianFly:</b> <a href="https://github.com/z1047941150/Tianfly" target="_blank">[GitHub]</a></li>
+                            <li>3.5-inch wheelbase.</li>
+                            <li>Material cost about $700, using finished parts.</li>
+                            <li>Equipped with blade protective cover and battery mount.</li>
+                            <li>Triangular front structure to protect sensors and computing units.</li>
+                            <li>Total weight about 650g.</li>
+                            <li>Battery life about 8.5 minutes.</li>
+                            <li>Can complete autonomous navigation planning tasks while considering cost and safety.</li>
+                        </ul>
+                        <p>These projects are still being optimized and expanded.</p>
+                        <h5>Software</h5>
+                        <p>To be continued...</p>
+
+                        <h4>Autonomous Car Racing Projects</h4>
+                        <p><i>Apr. 2022 – Present</i></p>
+                        <p>Based on F1TENTH open source project.</p>
+                        <h5>Hardware</h5>
+                        <div class="columns is-centered has-text-centered">
+                            <div class="column">
+                                <picture class="image">
+                                    <img src="IMG/cars.png" alt="GBCar" style="width:60%; display:block; margin:0 auto;">
+                                </picture>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><b>Offroad 1/10 Rally: GBcar</b> <a href="https://github.com/z1047941150/" target="_blank">[GitHub]</a></li>
+                        </ul>
+                        <div class="columns is-centered has-text-centered">
+                            <div class="column">
+                                <picture class="image">
+                                  <img src="IMG/GBcar.png" alt="GBCar" style="width:40%; display:block; margin:0 auto;">
+                                </picture>
+                            </div>
+                        </div>
+
+                        <br />
+                        <p>Update: 2025.10</p>
+                        <p>Credit: web source from <a href="https://binghao-huang.github.io/" target="_blank" style="text-decoration: underline;">Dr. Binghao Huang
+                        </a> & <a href="http://hansf.me/" target="_blank" style="text-decoration: underline;">Dr. Songfang Han</a></p>
+                    </div>
+                </div>
             </div>
-            <!-- details -->
-            <div class="details">
-              <h3>EMAIL</h3>
-              <p><a href="mailto:hansongfang@gmail.com">hansongfang<br>[at]gmail[dot]com</a></p>
-            </div>
-            <!-- social network icons -->
-            <div class="social">
-              <a href="https://github.com/hansongfang" target="_blank">
-                <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none"></span>
-              </a>
-              <a href="https://scholar.google.com/citations?user=5NdPrUgAAAAJ&hl=en" target="_blank">
-                <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none"></span>
-              </a>
-              <a href="https://www.linkedin.com/in/sfhan/" target="_blank">
-                <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none"></span>
-              </a>
-              <!--<a href="https://www.facebook.com/tianweishen.shen" target="_blank">-->
-                <!--<span class="fab fa-facebook fa-2x" style="display:inline; text-decoration: none"></span>-->
-              <!--</a>-->
-              <!--<a href="https://twitter.com/HegongEngineer" target="_blank">-->
-                <!--<span class="fab fa-twitter fa-2x" style="display:inline; text-decoration: none"></span>-->
-              <!--</a>-->
-            </div>
-
-
-            <div id="sidebar" class="menu sticky is-hidden-mobile">
-              <p class="menu-label"><b>Quick Links</b></p>
-              <ul class="menu-list">
-                <li><a href="#news">News</a></li>
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#research">Research</a></li>
-              </ul>
-            </div>
-          </div>
-
-
-
         </div>
-        <div class="column">
-          <div class="content">
-            <!--News-->
-            <h3 id="news">
-              News
-            </h3>
-            <ul>
-              <li><span>July, 2021 - Two paper get accepted to ICCV2021.</span></li>
-              <li><span>Apr, 2021 - Our ICCV2021 Workshop Call-for-paper: <a href="https://geometry.stanford.edu/struco3d/" target="_blank">StruCo3D2021: Structural and Compositional Learning on 3D Data.</a> </span></li>
-              <li><span>Feb, 2021 - One paper gets accepted to TVCG.</span></li>
-              <li><span>Apr, 2020 - One paper gets accepted to TPAMI.</span></li>
-              <li><span>July, 2019 - One paper gets accepted to ICCV2019 (oral).</span></li>
-              <li><span>Jun, 2019 - Has successfully defended my Ph.D. thesis!</span></li>
-            </ul>
+    </section>
 
-            <!--Intro-->
-            <h3 id="intro">Intro</h3>
-            <p>I have obtained my Ph.D. degree at HKUST, advised by Prof.
-              <a href="https://www.cse.ust.hk/~psander/" target="_blank" style="text-decoration: underline;">Pedro Sander</a>. During the Spring 2019,
-              I was a visiting student to the University of California, San Diego, supervised by Prof.
-              <a href="https://cseweb.ucsd.edu/~haosu/" target="_blank" style="text-decoration: underline;">Hao Su</a>. For the autumn 2017, I was a
-              research intern at SenseTime, supervised by Dr.
-              <a href="http://www.yan-qiong.com/" target="_blank" style="text-decoration: underline;">Qiong Yan</a>. Before that, I received my
-              B.S. degree in EE department from Tongji University in 2013. <br/><br/>
-
-              Since April 2020, I have started at <a href="http://ai.ucsd.edu/~haosu/lab/group.html" target="_blank" style="text-decoration: underline;">SULab</a> as a postdoctoral researcher, working with Prof.
-              <a href="https://cseweb.ucsd.edu/~haosu/" target="_blank" style="text-decoration: underline;">Hao Su</a>.<br/><br/>
-
-              My research interest includes computer graphics and computer vision, especially in 3D geometry processing,
-              3D reconstruction. My work covers efficient rendering, multi-view reconstruction, portrait relighting
-              and virtual reality.
-            </p>
-            [<a href = "http://hansf.me/files/songfang_resume.pdf">CV</a>].<br/><br/>
-
-
-            <!--Research-->
-            <h3 id="research">Research</h3>
-            <h4>2021</h4>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/noisy_label.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Learning with Noisy Labels for Robust Point Cloud Segmentation</i><br>
-                    Shuquan Ye, Dongdong Chen, <b>Songfang Han</b>, Jing Liao.<br>
-                    International Conference on Computer Vision (ICCV Oral), 2021<br>
-                    <a href="https://shuquanye.com/PNAL_website/" target="_blank">[<u>project (code)</u>]</a>
-                    <a href="https://arxiv.org/abs/2107.14230" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://github.com/pleaseconnectwifi/PNAL" target="_blank">[<u>code</u>]</a>
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/m3d-vton.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>M3D-VTON: A Monocular-to-3D Virtual Try-On Network</i><br>
-                    Fuwei Zhao, Zhenyu Xie, Michael Kampffmeyer, Haoye Dong, <b>Songfang Han</b>, Tianxiang Zheng, Tao Zhang, Xiaodan Liang.<br>
-                    International Conference on Computer Vision (ICCV), 2021.<br>
-<!--                    <a href="https://shuquanye.com/PNAL_website/" target="_blank">[<u>project (code)</u>]</a>-->
-                    <a href="https://arxiv.org/abs/2108.05126" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://github.com/fyviezhao/m3d-vton" target="_blank">[<u>code</u>]</a>
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/compnet.gif">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Compositionally Generalizable 3D Structure Prediction</i><br>
-                    <b>Songfang Han</b>, Jiayuan Gu, Kaichun Mo, Li Yi, Siyu Hu, Xuejin Chen, Hao Su.<br>
-                    arXiv, 2021.<br>
-<!--                    <a href="https://github.com/pleaseconnectwifi/Meta-PU" target="_blank">[<u>project (code)</u>]</a>-->
-                    <a href="https://arxiv.org/abs/2012.02493" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://github.com/hansongfang/CompNet" target="_blank">[<u>code</u>]</a>
-                    <a href="https://youtu.be/a1Mghtz3erM" target="_blank">[<u>video</u>]</a><br>
-<!--                    We bring in the concept of compositional generalizability and factorizes the 3D shape reconstruction problem into proper sub-problems, each of which is tackled by a carefully designed neural sub-module with generalizability guarantee. Experiments on PartNet show that we achieve superior performance than baseline methods, which validates our problem factorization and network designs.-->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/teaser_tvcg21.jpg">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Arbitrary-Scale Upsampling Network for Point Cloud</i><br>
-                    Shuquan Ye, Dongdong Chen, <b>Songfang Han</b>, Ziyu Wan, Jing Liao.<br>
-                    Visualization and Computer Graphics (TVCG), 2021. <br>
-                    <a href="https://github.com/pleaseconnectwifi/Meta-PU" target="_blank">[<u>project (code)</u>]</a>
-                    <a href="https://ieeexplore.ieee.org/document/9351772/" target="_blank">[<u>paper</u>]</a><br>
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <h4>2020</h4>
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/PMVS.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Visibility-Aware Point-Based Multi-View Stereo Network</i><br>
-                    Rui Chen, <b>Songfang Han</b>, Jing Xu.<br>
-                    TPAMI 2020 Apr 22. doi: 10.1109/TPAMI.2020.2988729.<br>
-                    <a href="https://github.com/callmeray/PointMVSNet" target="_blank">[<u>project (code)</u>]</a>
-                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9076298" target="_blank">[<u>paper</u>]</a><br>
-                    This is an extension of our ICCV work (Point-based Multi-view Stereo Network). In this paper, we introduce visibility-aware multi-view feature aggregation modules to gather information from visible views only for better depth prediction accuracy.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <h4>2019</h4>
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/2019_pmvsnet_s.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Point-Based Multi-View Network</i><br>
-                    <b>Songfang Han*</b>, Rui Chen*, Jing Xu, Hao Su.<br>
-                    ICCV 2019 (oral).<br>
-                    <a href="http://hansf.me/projects/PMVSNet/index.html" target="_blank">[<u>project (code)</u>]</a>
-                    <a href="https://arxiv.org/pdf/1908.04422.pdf" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://www.youtube.com/watch?v=eSBFOD5rDsU" target="_blank">[<u>video</u>]</a><br>
-                    An iterative framework to predict the depth of a scene using point cloud representation from multiple views. Use deep learning over the kNN graph to predict the residual for geometry estimation refinement.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <h4>2018</h4>
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/2018_reorder_s.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>In-Depth Buffers</i><br>
-                    <b>Songfang Han</b>, Ge Chen, Diego Nehab, Pedro Sander.<br>
-                    Proceedings of the ACM on Computer Graphics and Interactive Techniques (PACM) 2018.<br>
-                    <a href="http://hansf.me/files/2018Reorder.pdf" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://github.com/hansongfang/idb" target="_blank">[<u>code</u>]</a>
-                    <a href="https://youtu.be/bIr7gOWNPKE" target="_blank">[<u>video</u>]</a>
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <h4>2017</h4>
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/2017_reorder_s.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Triangle Reordering for Efficient Rendering in Complex Scenes </i><br>
-                    <b>Songfang Han</b>, Pedro Sander.<br>
-                    The Journal of Computer Graphics Techniques (JCGT) 2017.<br>
-                    <a href="http://hansf.me/files/Han2017Reordering.pdf" target="_blank">[<u>paper</u>]</a>
-                    <a href="http://jcgt.org/published/0006/03/03/code.zip" target="_blank">[<u>code</u>]</a>
-                    <a href="http://jcgt.org/published/0006/03/03/JCGT.mp4" target="_blank">[<u>video</u>]</a>
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <h4>2016</h4>
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="http://hansf.me/images/research/2016_reorder_s.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <i>Triangle Reordering for Reduced Overdraw in Animated Scenes </i><br>
-                    <b>Songfang Han</b>, Pedro Sander.<br>
-                    Proceedings of the 20th ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D) 2016.<br>
-                    <a href="http://hansf.me/files/2016Reorder.pdf" target="_blank">[<u>paper</u>]</a>
-                    <!--<a href="http://jcgt.org/published/0006/03/03/JCGT.mp4" target="_blank">[<u>video</u>]</a>-->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    var elm = document.querySelector('#sidebar');
-    var ms = new MenuSpy(elm, {
-      activeClass: 'is-active'
-    });
-  </script>
+    <script>
+        var elm = document.querySelector('#sidebar');
+        var ms = new MenuSpy(elm, {
+            activeClass: 'is-active'
+        });
+    </script>
 </body>
-
 </html>
