@@ -1,278 +1,269 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zhihao Zhang's Homepage</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/png" href="IMG/zhihao.jpeg">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
-    <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
-    <script src="js/menuspy.js"></script>
-</head>
-<body>
-    <section class="section">
-        <div class="container">
-            <div class="columns">
-                <!-- Sidebar -->
-                <div class="column is-2">
-                    <div class="sticky">
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="IMG/zhihao.jpeg">
-                        </figure>
-                        <div class="content">
-                            <h3>Zhihao Zhang</h3>
-                            <h6>Research Assistant<br> PolyU AIMS</h6>
-                        </div>
-                        <div class="social">
-                          <!-- Gmail -->
-                          <a href="mailto:zhangzhihao0618@gmail.com" target="_blank">
-                              <span class="fas fa-envelope fa-2x" style="display:inline; text-decoration: none"></span>
-                          </a>
-                          <!-- GitHub -->
-                          <a href="https://github.com/ZhihaoZhang0618" target="_blank">
-                              <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none"></span>
-                          </a>
-                          <!-- LinkedIn -->
-                          <a href="https://www.linkedin.com/in/zhihao-zhang-30830330a/" target="_blank">
-                              <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none"></span>
-                          </a>
-                          <!-- 哔哩哔哩 -->
-                          <a href="https://space.bilibili.com/27108728?spm_id_from=333.1007.0.0" target="_blank">
-                              <span class="fas fa-video fa-2x" style="display:inline; text-decoration: none"></span>
-                          </a>
-                      </div>
+    <title>Zhihao Zhang | Robotics & Autonomy</title>
 
-                        <div id="sidebar" class="menu sticky is-hidden-mobile">
-                            <p class="menu-label"><b>Quick Links</b></p>
-                            <ul class="menu-list">
-                                <li><a href="#intro">Intro</a></li>
-                                <li><a href="#publication">Publication</a></li>
-                                <li><a href="#research-experience">Research Experience</a></li>
-                                <li><a href="#skills">Skills & Interests</a></li>
-                                <li><a href="#personal-activities">Personal Activities</a></li>
-                            </ul>
-                        </div>
-                        
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <link rel="icon" type="image/png" href="IMG/zhihao.jpeg">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/menuspy.js" defer></script>
+</head>
+
+<body>
+    <section class="hero hero-accent is-fullwidth">
+        <div class="container">
+            <div class="columns is-vcentered py-6">
+                <div class="column is-6">
+                    <p class="eyebrow">MPhil Student</p>
+                    <h1 class="title is-2 has-text-weight-bold">Zhihao Zhang</h1>
+                    <p class="hero-copy">
+                        Focused on high-performance autonomous systems across racing, aerial robotics, and intelligent vehicles.
+                        Experienced in perception, planning, and control for RC cars, drones, and embedded robotics stacks.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button is-primary is-medium" href="mailto:zhangzhihao0618@gmail.com">Get in touch</a>
+                        <a class="button is-light is-medium" href="https://github.com/ZhihaoZhang0618" target="_blank">
+                            <span class="icon"><i class="fab fa-github"></i></span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    <div class="hero-tags">
+                        <span class="tag-chip">F1TENTH</span>
+                        <span class="tag-chip">Reinforcement Learning</span>
+                        <span class="tag-chip">Motion Planning</span>
+                        <span class="tag-chip">Control</span>
+                        <span class="tag-chip">RC & FPV Systems</span>
                     </div>
                 </div>
-                <!-- Main Content -->
-                <div class="column">
-                    <div class="content">
-                      <div style="text-align:right; width: 99%;">
-                        <picture class="image">
-                          <img alt="" src="IMG/GBcarFly.png" style="display:inline-block;">
-                        </picture>
-                      </div>
-                        <!-- Intro -->
-                        <h3 id="intro">Intro</h3>
-                        <p>I graduated with a degree in Computer Science from Heilongjiang University of Science and Technology in June last year. Following my graduation, I worked as a research assistant at ZJU FastLab. Currently, I am a research assistant at PolyU AIMS.</p>
-                        <p>My interested areas include <b>F1TENTH Racing, Reinforcement Learning, Control, Motion Planning, RC Cars, FPV drones, FixWings</b>.</p>
+                <div class="column is-offset-1">
+                    <div class="modern-card profile-card">
+                        <figure class="image is-128x128">
+                            <img src="IMG/zhihao.jpeg" alt="Zhihao Zhang portrait">
+                        </figure>
+                        <div class="social-grid">
+                            <a href="mailto:zhangzhihao0618@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="https://github.com/ZhihaoZhang0618" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/zhihao-zhang-30830330a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://space.bilibili.com/27108728?spm_id_from=333.1007.0.0" target="_blank" aria-label="Bilibili"><i class="fas fa-video"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <!-- Publication -->
-                        <h3 id="publication">Publication</h3>
-                        <article class="columns">
-                            <div class="column">
-                                <p>
-                                    <b>Real-time Spatial-temporal Traversability Assessment via Feature-based Sparse Gaussian Process</b><br>
-                                    Tan Senming*, Zhenyu Hou*, <b>Zhihao Zhang*</b>, Mengke Zhang, Long Xu, He ZhaoQi, Chao Xu, Fei Gao, Yanjun Cao<br>
-                                    <em>International Conference on Intelligent Robots and Systems (<b>IROS2025</b>), under review</em><br>
-                                    <a href="https://github.com/ZJU-FAST-Lab/FSGP_BGK" target="_blank">[<u>GitHub Repository</u>]</a><br>
-                                    * These authors contributed equally to this work.
-                                </p>
-                            </div>
-                        </article>
-                        <article class="columns">
-                            <div class="column">
-                                <p>
-                                    <b>SEB-Naver: A SE(2)-based Local Navigation Framework for Car-like Robots on Uneven Terrain</b><br>
-                                    Xiaoying Li, Long Xu, Xiaolin Huang, Donglai Xue, <b>Zhihao Zhang</b>, Zhichao Han, Chao Xu, Yanjun Cao, Fei Gao<br>
-                                    <em>International Conference on Intelligent Robots and Systems (<b>IROS2025</b>), under review</em><br>
-                                    <a href="https://github.com/ZJU-FAST-Lab/seb_naver" target="_blank">[<u>GitHub Repository</u>]</a>
-                                </p>
-                            </div>
-                        </article>
-
-                        <!-- Research Experience -->
-                        <h3 id="research-experience">Research Experience</h3>
-                        <article class="columns">
-                          <div class="column is-8">
-                              <h4>Zhejiang University FastLab</h4>
-                              <p><i>Research Assistant, Jan. 2024 – Present</i></p>
-                              <p>Advisor: Prof. Fei Gao</p>
-                              <ul>
-                                  <li>Participated in a heavy-load autonomous grasping and transportation project for short-distance fully autonomous delivery in complex environments such as mountains, rooftops, and sea surfaces.</li>
-                                  <li>Developed autonomous flight control using the DJI FC30 carrier aircraft and DJI Payload SDK.</li>
-                                  <li>Created a winch control program using joint motors that balances torque and retrieval speed.</li>
-                                  <li>Participated in the design of autonomous grasping and releasing processes.</li>
-                              </ul>
-                          </div>
-                          <div class="column is-4">
-                              <div class="image-container" style="display: flex; flex-direction: column; gap: 10px;">
-                                  <picture class="image">
-                                      <img src="IMG/FC30.png" alt="FC30" style="width:100%;">
-                                  </picture>
-                                  <picture class="image">
-                                      <img src="IMG/FC30_drone.jpg" alt="FC30 Drone" style="width:100%;">
-                                  </picture>
-                              </div>
-                          </div>
-                      </article>
-                      <article class="columns">
-                        <div class="column is-8">
-                            <h4>Smart Mobility at the Niagara Falls F1TENTH Competition</h4>
-                            <p><i>Leader Programmer, Sep. 2024</i></p>
-                            <ul>
-                                <li>Developed codebase and provided remote parameter tuning assistance.</li>
-                                <li>Optimized the odometry calculation method, reducing computation delay under high-mobility conditions.</li>
-                                <li>Used SmacPlannerHybrid as the global planner to compute the global path, and RegulatedPurePursuit to track the path.</li>
-                                <li>Secured the 3rd prize in the competition.</li>
-                                <li>Open-sourced <a href="https://github.com/ZhihaoZhang0618/PhoenixCore" target="_blank">the code</a>; see the <a href="https://www.youtube.com/watch?v=uXfa9ODQRoo" target="_blank">FPV video</a>.</li>
+    <section class="section section-main">
+        <div class="container">
+            <div class="columns is-variable is-6">
+                <aside class="column is-3">
+                    <div class="aside-stack sticky">
+                        <div id="sidebar" class="modern-card quick-links is-hidden-touch">
+                            <p class="menu-label">Quick Links</p>
+                            <ul class="menu-list">
+                                <li><a href="#intro">Intro</a></li>
+                                <li><a href="#publication">Publications</a></li>
+                                <li><a href="#research-experience">Research Experience</a></li>
+                                <li><a href="#skills">Skills & Interests</a></li>
+                                <li><a href="#personal-activities">Projects</a></li>
                             </ul>
                         </div>
-                        <div class="column is-4">
-                            <div class="image-container" style="display: flex; flex-direction: column; gap: 10px;">
-                                <picture class="image">
-                                    <img src="IMG/carInCanada.png" alt="Car in Canada" style="width:100%;">
-                                </picture>
-                                <picture class="image">
-                                    <img src="IMG/prize.jpg" alt="Competition Prize" style="width:100%;">
-                                </picture>
-                            </div>
+                    </div>
+                </aside>
+
+                <div class="column">
+                    <div class="modern-card section-block" id="intro">
+                        <p class="section-label">Introduction</p>
+                        <h3>Autonomy & Robotics Builder</h3>
+                        <p>I am currently an MPhil student advised by <a href="https://sites.google.com/view/hailong-huang/team" target="_blank">Prof. Hailong Huang</a>. I received my B.Eng. in Computer Science from Heilongjiang University of Science and Technology in 2023. Prior to my current role, I was a Research Assistant at ZJU FastLab and PolyU AIMS.</p>
+                        <p>My interests span <b>F1TENTH Racing, Reinforcement Learning, Control, Motion Planning, RC Cars, FPV drones, Fixed-wing aircraft</b>.</p>
+                    </div>
+
+                    <div class="modern-card section-block" id="publication">
+                        <p class="section-label">Selected Publications</p>
+                        <h3>Research Output</h3>
+                        <div class="publication-list">
+                            <article class="publication-entry">
+                                <h4>Real-time Spatial-temporal Traversability Assessment via Feature-based Sparse Gaussian Process</h4>
+                                <p class="meta-note">Tan Senming*, Zhenyu Hou*, <b>Zhihao Zhang*</b>, Mengke Zhang, Long Xu, He ZhaoQi, Chao Xu, Fei Gao, Yanjun Cao</p>
+                                <p><em>International Conference on Intelligent Robots and Systems (IROS 2025)</em>, Accepted</p>
+                                <a href="https://github.com/ZJU-FAST-Lab/FSGP_BGK" target="_blank">GitHub Repository</a>
+                            </article>
+                            <article class="publication-entry">
+                                <h4>SEB-Naver: A SE(2)-based Local Navigation Framework for Car-like Robots on Uneven Terrain</h4>
+                                <p class="meta-note">Xiaoying Li, Long Xu, Xiaolin Huang, Donglai Xue, <b>Zhihao Zhang</b>, Zhichao Han, Chao Xu, Yanjun Cao, Fei Gao</p>
+                                <p><em>International Conference on Intelligent Robots and Systems (IROS 2025)</em>, Accepted</p>
+                                <a href="https://github.com/ZJU-FAST-Lab/seb_naver" target="_blank">GitHub Repository</a>
+                            </article>
                         </div>
-                    </article>
-                        <article class="columns">
-                            <div class="column">
-                                <h4>17th National College Student Intelligent Car Competition</h4>
-                                <p><i>Team Leader, Apr. 2022 – Aug. 2022</i></p>
-                                <ul>
-                                    <li>Developed codebase, coordinated team members’ work, and managed project progress.</li>
-                                    <li>Used U-Net for lane line segmentation and deployed the quantized model using TensorRT, achieving an inference speed of 12 ms on Jetson Nano. <a href="【【tianracer】对梦中情车动手动脚】 https://www.bilibili.com/video/BV1MS4y1N7fw/?p=3&share_source=copy_web&vd_source=7b01d34d2559e7724da23dc510cf1bf2" target="_blank">[Video]</a></li>
-                                    <li>For traffic light detection, used YOLOv4-tiny; independently handled data collection, labeling, and training.</li>
-                                    <li>Won the national first prize (with a 10,000 RMB prize).</li>
-                                </ul>
-                            </div>
-                        </article>
-                        <article class="columns">
-                            <div class="column">
-                                <h4>Beijing Intelligent Mechanic-Electric Equipment Co. Ltd.</h4>
-                                <p><i>Intern, Sep. 2021 – Feb. 2022</i></p>
-                                <ul>
-                                    <li>Developed a multi-robot distributed collaborative patrol solution based on Autoware.</li>
-                                    <li>Added RTK positioning based on hdl-localization for integrated localization.</li>
-                                    <li>Replaced the KF-based Object Tracker with PointPillars and accelerated it using TensorRT.</li>
-                                    <li>Implemented intranet penetration and remote networking for IoT remote control of vehicles.</li>
-                                </ul>
-                            </div>
-                        </article>
-                        <article class="columns">
-                          <div class="column is-8">
-                              <h4>Guangzhou Liwan District Digital Twin Project</h4>
-                              <p><i>Responsible for 3D Reconstruction, Apr. 2022 – Jun. 2022</i></p>
-                              <ul>
-                                  <li>Used data from the DJI L1 and colored point clouds generated by DJI Terra, imported them into ContextCapture to create Mesh images.</li>
-                                  <li>Built a custom 3D scanner, completed time synchronization and calibration, and replicated methods like Fast-livo and R3live for 3D scene reconstruction.</li>
-                                  <li>Selected a third-party team to complete the 3D scene reconstruction after evaluating technical approaches and market status.</li>
-                              </ul>
-                          </div>
-                          <div class="column is-4">
-                              <picture class="image">
-                                  <img src="IMG/r3live.jpg" alt="R3Live" style="width:100%;">
-                              </picture>
-                              <picture class="image">
-                                <img src="IMG/sim.png" alt="Competition Prize" style="width:100%;">
-                            </picture>
-                          </div>
-                      </article>
-                        <article class="columns">
-                            <div class="column">
-                                <h4>RACECAR Easy Build Guide from Zero</h4>
-                                <p><i>Presenter, Apr. 2022 – Jun. 2022</i></p>
-                                <ul>
-                                    <li>Created video content covering hardware assembly of RC car to autonomous high-speed navigation.</li>
-                                    <li>Shot videos explaining robot components and building process.</li>
-                                    <li>Developed part of the racecar code.</li>
-                                    <li><a href="https://www.bilibili.com/video/BV16Y4y177s3" target="_blank">[Video Link]</a></li>
-                                </ul>
+                    </div>
+
+                    <div class="modern-card section-block" id="research-experience">
+                        <p class="section-label">Research Experience</p>
+                        <h3>Hands-on Autonomy Work</h3>
+
+                        <article class="experience-block">
+                            <div class="columns is-variable is-4">
+                                <div class="column is-two-thirds">
+                                    <h4>Zhejiang University FastLab</h4>
+                                    <p><i>Research Assistant, Jan. 2024 – Present</i></p>
+                                    <p>Advisor: Prof. Fei Gao</p>
+                                    <ul>
+                                        <li>Led contributions on heavy-load autonomous grasping & transportation in unstructured terrain.</li>
+                                        <li>Developed autonomous flight control for the DJI FC30 platform with Payload SDK integration.</li>
+                                        <li>Designed winch control balancing torque & retrieval speed using joint motors.</li>
+                                        <li>Co-architected autonomous grasping and release workflows.</li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <div class="media-grid">
+                                        <picture class="image"><img src="IMG/FC30.png" alt="FC30" /></picture>
+                                        <picture class="image"><img src="IMG/FC30_drone.jpg" alt="FC30 Drone" /></picture>
+                                    </div>
+                                </div>
                             </div>
                         </article>
 
-                        <!-- Skills & Interests -->
-                        <h3 id="skills">Skills & Interests</h3>
-                        <p><b>Technical Skills:</b></p>
+                        <article class="experience-block">
+                            <div class="columns is-variable is-4">
+                                <div class="column is-two-thirds">
+                                    <h4>Smart Mobility @ Niagara Falls F1TENTH Competition</h4>
+                                    <p><i>Lead Programmer, Sep. 2024</i></p>
+                                    <ul>
+                                        <li>Built the race stack & remote parameter tuning support.</li>
+                                        <li>Optimized odometry for low-latency under high dynamics.</li>
+                                        <li>Used SmacPlannerHybrid & RegulatedPurePursuit for planning + tracking.</li>
+                                        <li>Placed 3rd overall; <a href="https://github.com/ZhihaoZhang0618/PhoenixCore" target="_blank">open-sourced PhoenixCore</a> and published <a href="https://www.youtube.com/watch?v=uXfa9ODQRoo" target="_blank">FPV footage</a>.</li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <div class="media-grid">
+                                        <picture class="image"><img src="IMG/carInCanada.png" alt="Car in Canada" /></picture>
+                                        <picture class="image"><img src="IMG/prize.jpg" alt="Competition Prize" /></picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="experience-block">
+                            <h4>17th National College Student Intelligent Car Competition</h4>
+                            <p><i>Team Leader, Apr. 2022 – Aug. 2022</i></p>
+                            <ul>
+                                <li>Led team coordination, full-stack software, and delivery timeline.</li>
+                                <li>Implemented U-Net lane segmentation optimized with TensorRT (12 ms on Jetson Nano).</li>
+                                <li>Deployed YOLOv4-tiny for traffic-light detection, handling data collection through training.</li>
+                                <li>Earned national first prize (10,000 RMB award).</li>
+                            </ul>
+                        </article>
+
+                        <article class="experience-block">
+                            <h4>Beijing Intelligent Mechanic-Electric Equipment Co. Ltd.</h4>
+                            <p><i>Intern, Sep. 2021 – Feb. 2022</i></p>
+                            <ul>
+                                <li>Built multi-robot distributed patrol based on Autoware.</li>
+                                <li>Added RTK-enabled localization fusion.</li>
+                                <li>Swapped KF tracker with TensorRT-accelerated PointPillars.</li>
+                                <li>Implemented secure remote networking for IoT control.</li>
+                            </ul>
+                        </article>
+
+                        <article class="experience-block">
+                            <div class="columns is-variable is-4">
+                                <div class="column is-two-thirds">
+                                    <h4>Guangzhou Liwan District Digital Twin Project</h4>
+                                    <p><i>3D Reconstruction Lead, Apr. 2022 – Jun. 2022</i></p>
+                                    <ul>
+                                        <li>Processed DJI L1 data & Terra point clouds into mesh assets via ContextCapture.</li>
+                                        <li>Built custom 3D scanner replicating Fast-LIVO & R3LIVE methods.</li>
+                                        <li>Evaluated vendors and selected third-party team for final reconstruction.</li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <div class="media-grid">
+                                        <picture class="image"><img src="IMG/r3live.jpg" alt="R3Live" /></picture>
+                                        <picture class="image"><img src="IMG/sim.png" alt="Simulation" /></picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="experience-block">
+                            <h4>RACECAR Easy Build Guide from Zero</h4>
+                            <p><i>Presenter, Apr. 2022 – Jun. 2022</i></p>
+                            <ul>
+                                <li>Produced tutorial series covering RC hardware to autonomous racing.</li>
+                                <li>Documented component breakdowns & assembly.</li>
+                                <li>Developed racecar software modules.</li>
+                                <li><a href="https://www.bilibili.com/video/BV16Y4y177s3" target="_blank">Watch the series</a></li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="modern-card section-block" id="skills">
+                        <p class="section-label">Skills & Interests</p>
+                        <h3>Core Capabilities</h3>
                         <ul>
-                            <li><b>Programming Languages:</b> Python, C++, C, Java, C#</li>
-                            <li><b>Toolkits:</b> Docker, Git, ROS/ROS2, PyTorch, TensorFlow, OpenCV</li>
-                            <li><b>Development Boards:</b> Jetson series, ESP32, Raspberry Pi series, Arduino</li>
+                            <li><b>Programming:</b> Python, C++, C, Java, C#</li>
+                            <li><b>Frameworks & Tooling:</b> Docker, Git, ROS/ROS2, PyTorch, TensorFlow, OpenCV</li>
+                            <li><b>Computing & Boards:</b> Jetson series, ESP32, Raspberry Pi, Arduino</li>
                             <li><b>Flight Controllers:</b> PX4, APM, Betaflight, INav</li>
                         </ul>
+                    </div>
 
-                        <!-- Personal Activities -->
-                        <h3 id="personal-activities">Long term projects</h3>
-                        <p>(Personal projects, welcome to join me!)</p>
-                        <h4>Autonomous Drone Projects</h4>
+                    <div class="modern-card section-block" id="personal-activities">
+                        <p class="section-label">Long-term Projects</p>
+                        <h3>Autonomous Drone Projects</h3>
                         <p><i>Apr. 2022 – Present</i></p>
-                        <p>Based on FastLab open source project.</p>
-                        <h5>Hardware</h5>
-                        <div class="columns is-centered has-text-centered">
-                            <div class="column">
-                                <picture class="image">
-                                    <img src="IMG/drones.png" alt="Drones" style="width:60%;">
-                                </picture>
-                            </div>
+                        <p>Based on FastLab open-source stack.</p>
+                        <div class="project-block">
+                            <h4>RedundantDrone (Universal platform)</h4>
+                            <ul>
+                                <li>Integrated NUC, RTK, LiDAR, and binocular sensing on a 333 mm pitch frame (~2 kg).</li>
+                                <li>18+ min flight endurance; supports SLAM, planning, and control validation.</li>
+                                <li><a href="https://github.com/z1047941150/RedundantDrone" target="_blank">GitHub</a></li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li><b>Universal drone RedundantDrone:</b> <a href="https://github.com/z1047941150/RedundantDrone" target="_blank">[GitHub]</a></li>
-                            <li>Integrated NUC, RTK, LiDAR, and binocular camera into a 333mm blade pitch drone.</li>
-                            <li>Total weight controlled at about 2kg.</li>
-                            <li>Battery life over 18 minutes.</li>
-                            <li>Capable of verifying (V)SLAM, trajectory planning, motion control, and other algorithms.</li>
-                        </ul>
-                        <ul>
-                            <li><b>Lightweight High-protection drone TianFly:</b> <a href="https://github.com/z1047941150/Tianfly" target="_blank">[GitHub]</a></li>
-                            <li>3.5-inch wheelbase.</li>
-                            <li>Material cost about $700, using finished parts.</li>
-                            <li>Equipped with blade protective cover and battery mount.</li>
-                            <li>Triangular front structure to protect sensors and computing units.</li>
-                            <li>Total weight about 650g.</li>
-                            <li>Battery life about 8.5 minutes.</li>
-                            <li>Can complete autonomous navigation planning tasks while considering cost and safety.</li>
-                        </ul>
-                        <p>These projects are still being optimized and expanded.</p>
-                        <h5>Software</h5>
-                        <p>To be continued...</p>
+                        <div class="project-block">
+                            <h4>TianFly (Lightweight high-protection)</h4>
+                            <ul>
+                                <li>3.5-inch wheelbase, ~650 g AUW with protective shroud + battery mount.</li>
+                                <li>Triangular nose structure protects compute & sensors.</li>
+                                <li>8.5 min flight time; balances autonomy performance and safety.</li>
+                                <li><a href="https://github.com/z1047941150/Tianfly" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                        <div class="media-grid is-centered" style="margin: 2rem 0;">
+                            <picture class="image"><img src="IMG/drones.png" alt="Drones" /></picture>
+                        </div>
+                        <p>These projects are under continuous refinement.</p>
+                        <p class="meta-note">Software stack updates: To be continued…</p>
 
-                        <h4>Autonomous Car Racing Projects</h4>
+                        <h3 class="list-heading">Autonomous Car Racing Projects</h3>
                         <p><i>Apr. 2022 – Present</i></p>
-                        <p>Based on F1TENTH open source project.</p>
-                        <h5>Hardware</h5>
-                        <div class="columns is-centered has-text-centered">
-                            <div class="column">
-                                <picture class="image">
-                                    <img src="IMG/cars.png" alt="GBCar" style="width:60%; display:block; margin:0 auto;">
-                                </picture>
-                            </div>
+                        <p>Built on the F1TENTH open-source ecosystem.</p>
+                        <div class="project-block">
+                            <h4> Offroad 1/10 Rally</h4>
+                            <ul>
+                                <li>Custom chassis tuned for aggressive rally courses.</li>
+                                <li><a href="https://github.com/ZhihaoZhang0618/RallyCore" target="_blank">GitHub</a></li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li><b>Offroad 1/10 Rally: GBcar</b> <a href="https://github.com/z1047941150/" target="_blank">[GitHub]</a></li>
-                        </ul>
-                        <div class="columns is-centered has-text-centered">
-                            <div class="column">
-                                <picture class="image">
-                                  <img src="IMG/GBcar.png" alt="GBCar" style="width:40%; display:block; margin:0 auto;">
-                                </picture>
-                            </div>
+                        <div class="media-grid is-centered" style="margin: 2rem 0;">
+                            <picture class="image"><img src="IMG/cars.png" alt="Cars" /></picture>
+                            <picture class="image"><img src="IMG/GBcar.png" alt="GBCar" /></picture>
                         </div>
 
-                        <br />
-                        <p>Update: 2025.10</p>
-                        <p>Credit: web source from <a href="https://binghao-huang.github.io/" target="_blank" style="text-decoration: underline;">Dr. Binghao Huang
-                        </a> & <a href="http://hansf.me/" target="_blank" style="text-decoration: underline;">Dr. Songfang Han</a></p>
+                        <p class="meta-note">Updated: 2025.10</p>
+                        <p class="meta-note">Credit: Template inspired by <a href="https://binghao-huang.github.io/" target="_blank">Dr. Binghao Huang</a> & <a href="http://hansf.me/" target="_blank">Dr. Songfang Han</a></p>
                     </div>
                 </div>
             </div>
@@ -280,10 +271,15 @@
     </section>
 
     <script>
-        var elm = document.querySelector('#sidebar');
-        var ms = new MenuSpy(elm, {
-            activeClass: 'is-active'
+        document.addEventListener('DOMContentLoaded', function () {
+            var sidebar = document.querySelector('#sidebar');
+            if (sidebar) {
+                new MenuSpy(sidebar, {
+                    activeClass: 'is-active'
+                });
+            }
         });
     </script>
 </body>
+
 </html>
